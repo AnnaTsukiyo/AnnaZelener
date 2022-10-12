@@ -3,8 +3,6 @@ package com.epam.laba.hometask2.beans;
 import lombok.Data;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.stereotype.Component;
-
 
 @Data
 public class BeanA implements DefaultBean, InitializingBean, DisposableBean {

@@ -7,9 +7,7 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 @Data
 public class BeanE implements DefaultBean {
-    @Value("${beanE.name}")
     private String name;
-    @Value("${beanE.value}")
     private Integer value;
 
     @PostConstruct
